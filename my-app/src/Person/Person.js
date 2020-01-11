@@ -9,6 +9,9 @@ const Person = (props) => {
       <p className='residence'>{props.residence}</p>
       <p className='rank'>{props.rank}</p>
     </div>
+
+    
+    
   )
 }
 

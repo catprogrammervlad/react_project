@@ -65,14 +65,34 @@ class App extends Component {
   }
   render() {
     return (
+      <div>
+        <Person
+          code={this.state.Persons[0].code}
+          name={this.state.Persons[0].name}
+          surname={this.state.Persons[0].surname}
+          residence={this.state.Persons[0].residence}
+          rank={this.state.Persons[0].rank}></Person>
+        <Person
+          code={this.state.Persons[0].code}
+          name={this.state.Persons[0].name}
+          surname={this.state.Persons[0].surname}
+          residence={this.state.Persons[0].residence}
+          rank={this.state.Persons[0].rank}></Person>
 
-      // test
-      <Person
-        code={this.state.Persons[0].code}
-        name={this.state.Persons[0].name}
-        surname={this.state.Persons[0].surname}
-        residence={this.state.Persons[0].residence}
-        rank={this.state.Persons[0].rank}></Person>
+        <Person
+          code={this.state.Persons[0].code}
+          name={this.state.Persons[0].name}
+          surname={this.state.Persons[0].surname}
+          residence={this.state.Persons[0].residence}
+          rank={this.state.Persons[0].rank}></Person>
+
+        <Person
+          code={this.state.Persons[0].code}
+          name={this.state.Persons[0].name}
+          surname={this.state.Persons[0].surname}
+          residence={this.state.Persons[0].residence}
+          rank={this.state.Persons[0].rank}></Person>
+      </div>
     )
   }
 }
