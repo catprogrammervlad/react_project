@@ -1,15 +1,80 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
+import Person from './Person/Person'
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+class App extends Component {
+  state = {
+    Persons: [
+      {
+        code: 'ff44g43',
+        name: 'rick',
+        surname: 'vilson',
+        residence: 'new-york',
+        rank: 'sergeant'
+      },
+      {
+        code: 'ff44g43',
+        name: 'rick',
+        surname: 'vilson',
+        residence: 'new-york',
+        rank: 'sergeant'
+      },
+      {
+        code: 'ff44g43',
+        name: 'rick',
+        surname: 'vilson',
+        residence: 'new-york',
+        rank: 'sergeant'
+      },
+      {
+        code: 'ff44g43',
+        name: 'rick',
+        surname: 'vilson',
+        residence: 'new-york',
+        rank: 'sergeant'
+      },
+      {
+        code: 'ff44g43',
+        name: 'rick',
+        surname: 'vilson',
+        residence: 'new-york',
+        rank: 'sergeant'
+      },
+      {
+        code: 'ff44g43',
+        name: 'rick',
+        surname: 'vilson',
+        residence: 'new-york',
+        rank: 'sergeant'
+      },
+      {
+        code: 'ff44g43',
+        name: 'rick',
+        surname: 'vilson',
+        residence: 'new-york',
+        rank: 'sergeant'
+      },
+      {
+        code: 'ff44g43',
+        name: 'rick',
+        surname: 'vilson',
+        residence: 'new-york',
+        rank: 'sergeant'
+      }
+    ]
+  }
+  render() {
+    return (
+
+      // test
+      <Person
+        code={this.state.Persons[0].code}
+        name={this.state.Persons[0].name}
+        surname={this.state.Persons[0].surname}
+        residence={this.state.Persons[0].residence}
+        rank={this.state.Persons[0].rank}></Person>
+    )
+  }
 }
 
-
-
-export default App;
+export default App
